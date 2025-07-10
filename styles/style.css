@@ -206,6 +206,56 @@ nav ul li a{
     margin-top: 5px;
 }
 
+/* User Feedback */
+/* Most of the styling of this section is done using inline CSS Hehe diversity!! */
+.user-feedback{
+    max-width: 1140px;
+    height: 342px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+}
+
+.user-feedback .text-part h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+
+
+.card-part{
+    width: 366.67px;
+    height: 243px;
+    border: 2px solid rgba(0, 0, 0, 0.062);
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.068);
+    font-family: "Inter", sans-serif;
+}
+
+.card-part h1{
+    font-weight: 600;
+}
+
+.card-part p{
+    color: #000000ab;
+}
+
+.profile{
+    margin-top: 20px;
+}
+
+.sub-profile h4{
+    color: #0000009c;
+}
+
+.sub-profile p{
+    color: #00000063;
+}
+
+
 /* Get in touch Section */
 .get-in-touch{
     display: flex;
