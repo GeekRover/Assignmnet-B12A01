@@ -171,6 +171,7 @@ nav ul li a{
     margin: 0 auto;
     margin-bottom: 116px;
     padding: 50px 142px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.041);
 
 }
 
@@ -253,6 +254,52 @@ nav ul li a{
 
 .sub-profile p{
     color: #00000063;
+}
+
+/* Ready to focus better section(Optional) */
+.ready-focus{
+    max-width:1140px;
+    height: 696.77px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    border-radius: 14px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.041);
+    text-align: center;
+    padding: 71px;
+}
+
+.ready-focus h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.ready-focus p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #00000063;
+    margin-bottom: 20px;
+    
+}
+
+
+.ready-focus button{
+    width: 195px;
+    height:48px;
+    background-color: rgba(78, 71, 255, 1);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ready-focus img{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;
 }
 
 
