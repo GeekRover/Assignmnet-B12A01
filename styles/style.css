@@ -15,6 +15,9 @@
 
 
 /* Shared Section */
+body{
+    background-color: #F5F8FF;
+}
 .primary-color{
     color: rgba(78, 71, 255, 1);
 }
@@ -262,4 +265,9 @@ nav ul li a{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 16px;
+}
+
+/* Footer Section */
+.mother-container{
+    height: 428px;
 }
