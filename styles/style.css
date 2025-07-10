@@ -198,3 +198,68 @@ nav ul li a{
     margin-top: 5px;
 }
 
+/* Get in touch Section */
+.get-in-touch{
+    display: flex;
+    max-width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+
+}
+
+.text-field{
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.form-field form{
+    display: flex;
+    flex-direction: column;
+}
+.form-field label{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.form-field input,textarea{
+    font-family: "Inter", sans-serif;
+    color: #0000007c;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.form-field input{
+    border: 2px solid #0000002c;
+    border-radius: 10px;
+    width: 497px;
+    height: 70px;
+    padding-left: 30px;
+    
+}
+
+.form-field textarea{
+    resize: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border: 2px solid #0000002c;
+}
+
+.form-field button{
+    height: 62px;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
