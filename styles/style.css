@@ -24,7 +24,9 @@ body{
 
 button:hover{
     background-color: #3b6ae2;
+    opacity: .7;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    
 }
 
 
@@ -140,6 +142,9 @@ nav ul li a{
 }
 
 .launch-btn{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
     width: 229px;
     height: 48px;
