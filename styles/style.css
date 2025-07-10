@@ -24,12 +24,26 @@
 
 
 /* NavBar */
+.page-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.navbar{
+    z-index: 1;
+}
+
 nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin-left: 150px;
     margin-right: 150px;
+    
+    
+
 }
 
 nav ul li a{
@@ -49,6 +63,46 @@ nav ul li a{
     border: none;
     width: 132px;
     height: 48px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+}
+
+
+/* First Banner */
+.first-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+    width: 100%;
+    position: absolute;
+    
+   
+
+    
+
+}
+
+.first-banner h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+   
+
+}
+
+.first-banner button{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 48px;
+    width: 174px;
+    border: none;
     border-radius: 10px;
     background-color: #4E47FF;
     color: #FFFFFF;
