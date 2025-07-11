@@ -294,6 +294,9 @@ nav ul li a{
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .ready-focus img{
